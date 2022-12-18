@@ -35,15 +35,97 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: bisque;
+  background-color: #FED049;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 
 }
 
+.hero-banner {
+  background: rgb(68, 88, 120);
+  background-image: url("../images/02-hero-bg.jpg") linear-gradient(blue);
+  background-size: cover;
+  background-position:  center;
+  background-blend-mode: soft-light;
+  min-height: 30vh;
+  color: coral;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hero-banner div {
+  flex: 0 0 90%;
+}
+
+.contact {
+  color: gray;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-style: normal;
+  background-image: linear-gradient();
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  margin: 0 0.2rem 0.1rem;
+  display: inline-block;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header #nav {
+  display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+}
+/* 
+.footer #contact {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-evenly;
+
+} */
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 40%;
+  align-items: center;
+  height: 100%;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
 /* Bringing in the images to CSS */
 
 .proj1 {
-
+  
   background-image: url("../images/02-portfolio-4.jpg");
 
 }
@@ -81,6 +163,7 @@ p {
 
 .flex-item {
   display: flex;
+
   align-items: flex-end;
   flex-basis: calc(50% - 1em);
   margin: .5em;
@@ -94,12 +177,23 @@ p {
 }
 
 .flex-item div {
-  background-color: lightgreen;
+  background-color: #FED049;
   padding: 10px;
 }
 
 
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
+  /* body {
+    background-color: green;
+  } */
   .flex-item {
     flex-basis: 100%;
   }
@@ -108,3 +202,10 @@ p {
   }
   
 }
+
+/* @media screen and (max-width: 400px) {
+  
+  body {
+    background-color: yellow;
+  }
+} */
