@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
-
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +8,6 @@ body {
   background-color: rgb(235, 247, 247);
   line-height: 1.5;
 }
-
 h1,
 h2,
 h3,
@@ -19,15 +16,12 @@ h5,
 h6 {
   margin: 0;
 }
-
 p {
   margin: 0;
 }
-
 .h1 {
   background-color: blue;
 }
-
 .header {
   padding: 15px 6% 15px 0;
   display: flex;
@@ -37,9 +31,7 @@ p {
   align-items: center;
   background-color: #FED049;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-
 }
-
 .hero-banner {
   background: rgb(68, 88, 120);
   background-image: url("../images/02-hero-bg.jpg") linear-gradient(blue);
@@ -54,12 +46,29 @@ p {
   align-items: flex-end;
   text-align: right;
 }
-
 .hero-banner div {
   flex: 0 0 90%;
 }
-
-.contact {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+.header h1 {
+  font-size: 40px;
+}
+/* .contact {
   color: gray;
   padding: 5px;
   text-decoration: none;
@@ -72,124 +81,67 @@ p {
   transition: all 0.25s ease-in;
   margin: 0 0.2rem 0.1rem;
   display: inline-block;
-}
-
-.header h1 {
-  display: inline-block;
-  font-size: 40px;
-}
-
-.header div ul {
-  list-style-type: none;
-}
-
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
-
-.header #nav {
-  display: flex;
-    list-style: none;
-    width: 40%;
-    justify-content: space-evenly;
-}
-/* 
-.footer #contact {
+} */
+.contact {
   display: flex;
   list-style: none;
-  width: 40%;
   justify-content: space-evenly;
-
-} */
-
-#contact {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 40%;
   align-items: center;
-  height: 100%;
 }
-
+.contact a {
+  list-style: none;
+  text-decoration: none;
+}
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
-
-
 /* Bringing in the images to CSS */
-
 .proj1 {
   
   background-image: url("../images/02-portfolio-4.jpg");
-
 }
-
 .proj2 {
-
   background-image: url("../images/02-portfolio-1.jpg");
-
 }
-
 .proj3 {
-
   background-image: url("../images/02-portfolio-2.jpg");
-
 }
-
 .proj4 {
-
   background-image: url("../images/02-portfolio-3.jpg");
-
 }
-
 .proj5 {
-
   background-image: url("../images/02-run-buddy.jpg");
-
 }
-
 .flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .flex-item {
   display: flex;
-
   align-items: flex-end;
   flex-basis: calc(50% - 1em);
   margin: .5em;
-  min-height: 150%;
+  min-height: 200px;
 }
-
 .flex-item:first-child {
   min-height: 300px;
   flex-basis: 100%;
  
 }
-
 .flex-item div {
   background-color: #FED049;
   padding: 10px;
 }
-
-
-
 /* Footer */
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 @media screen and (max-width: 768px) {
   /* body {
     background-color: green;
@@ -202,7 +154,6 @@ p {
   }
   
 }
-
 /* @media screen and (max-width: 400px) {
   
   body {
