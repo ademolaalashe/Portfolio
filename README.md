@@ -11,6 +11,7 @@ Page navigation
 HTML header layout containing access to "About Me", "Work", "Contact", and "Resume"
 Footer containing contact information.
 
+![Portfolio](../Portfolio/images/screenshot.png)
 
 
 
