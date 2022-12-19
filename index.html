@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- main logo / nav -->
-  <div class="header">
+  <header>
     <h1>Ademola Alashe</h1>
     <nav>
       <ul>
@@ -27,112 +27,111 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
   <!-- hero banner -->
-  <section class="hero-banner">
+  <div class="hero-banner">
     <div>
       <h2>Hey, welcome to my portfolio!</h2>
     </div>
-  </section>
-  <br>
-  <br>
+  </div>
+
   <main class="page-wrapper">
-    <br>
+    
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <br>
-      <img src="../Portfolio/images/Ademola-Alashe.jpg" alt="Ade's Image">
-      <br>
-      <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Ut elementum leo vel vestibulum congue. Curabitur placerat mi nisi, in vehicula
-        nibh consectetur id. Donec ultrices, turpis quis placerat gravida, turpis dolor
-        feugiat ex, sit amet malesuada sem tellus vitae diam. In venenatis augue eget tincidunt volutpat.
-        Pellentesque non egestas dui. Suspendisse potenti. Nunc ac sem ex. Vivamus quis elit nec libero commodo
-        blandit in et odio. Phasellus erat nisl, tincidunt vitae ipsum eu, fringilla dapibus nulla. Nam ullamcorper diam
-        eget tincidunt consectetur.
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+      
+      <div class="section-content">
+        <img src="../Portfolio/images/Ademola-Alashe.jpg" alt="Ade's Image">
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Ut elementum leo vel vestibulum congue. Curabitur placerat mi nisi, in vehicula
+          nibh consectetur id. Donec ultrices, turpis quis placerat gravida, turpis dolor
+          feugiat ex, sit amet malesuada sem tellus vitae diam. In venenatis augue eget tincidunt volutpat.
+          Pellentesque non egestas dui. Suspendisse potenti. Nunc ac sem ex. Vivamus quis elit nec libero commodo
+          blandit in et odio. Phasellus erat nisl, tincidunt vitae ipsum eu, fringilla dapibus nulla. Nam ullamcorper diam
+          eget tincidunt consectetur.
+          </p>
+          
+          <p>
+          Nulla facilisis lacus enim, sed hendrerit tortor consectetur nec. Quisque at sem libero.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+          Vestibulum nunc nunc, pellentesque sit amet condimentum eget, molestie eu magna. Morbi volutpat
+          sollicitudin enim, a feugiat sapien egestas at. Morbi nibh felis, condimentum nec enim ac, molestie consequat
+          urna. Ut in quam risus.
+          Nunc sollicitudin sapien felis, eu condimentum ex tempus in. Sed fermentum libero id velit aliquam commodo.
+          Proin sit amet arcu interdum, rhoncus dolor vitae, iaculis nibh.
+        
+          <hr>
         </p>
-        <br>
-        <br>
-        <p>
-        Nulla facilisis lacus enim, sed hendrerit tortor consectetur nec. Quisque at sem libero.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        Vestibulum nunc nunc, pellentesque sit amet condimentum eget, molestie eu magna. Morbi volutpat
-        sollicitudin enim, a feugiat sapien egestas at. Morbi nibh felis, condimentum nec enim ac, molestie consequat
-        urna. Ut in quam risus.
-        Nunc sollicitudin sapien felis, eu condimentum ex tempus in. Sed fermentum libero id velit aliquam commodo.
-        Proin sit amet arcu interdum, rhoncus dolor vitae, iaculis nibh.
-        <br>
-        <hr>
-      </p>
-      <br>
+      </div>
+      
     </section>
-    <!-- first card -->
-    <!-- wraping the div with the anchor tag to create a link on 
-          the card -->
-    <!-- We will be using the background image in CSS as the 
-          HTML does not know anything about the image. 
-          It conceals the image in the CSs and because the 
-          mage is loaded in the CSS and loads in a different time. 
-          eg. A background image. It makes it harder from people 
-          to copy image -->
-    <!-- Using the class tag to bring in the background images 
-          each of the div will need to have a uniq class. eg. "proj1"-->
+        
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="flex">
-        <a href="#" class="proj1 flex-item">
-          <div>
-            <h3>Surf Report</h3>
-            <p>MERN Stack</p>
-          </div>
-        </a>
-        <!-- second card -->
-        <a href="#" class="proj2 flex-item">
-          <div>
-            <h3>LED Wall</h3>
-            <p>Node/IoT</p>
-          </div>
-        </a>
-        <!-- third card -->
-        <a href="#" class="proj3 flex-item">
-          <div>
-            <h3>Calculator </h3>
-            <p>React/JavaScript</p>
-          </div>
-        </a>
-        <!-- forth card -->
-        <a href="#" class="proj4 flex-item">
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <p>MERN Stack</p>
-          </div>
-        </a>
-        <!-- fifth card -->
-        <a href="#" class="proj5 flex-item">
-          <div>
-            <h3>Run Buddy</h3>
-            <p>HTML/CSS</p>
-          </div>
-        </a>
+      <div class="section-title">
+        <h2>Work</h2>
       </div>
-      <br>
-      <br>
+      <div class="section-content">
+        <div class="flex">
+        <!-- first card -->
+          <a href="#" class="proj1 flex-item background-image">
+            <div>
+              <h3>Surf Report</h3>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+          <!-- second card -->
+          <a href="#" class="proj2 flex-item background-image">
+            <div>
+              <h3>LED Wall</h3>
+              <p>Node/IoT</p>
+            </div>
+          </a>
+          <!-- third card -->
+          <a href="#" class="proj3 flex-item background-image">
+            <div>
+              <h3>Calculator </h3>
+              <p>React/JavaScript</p>
+            </div>
+          </a>
+          <!-- forth card -->
+          <a href="#" class="proj4 flex-item background-image">
+            <div>
+              <h3>Pastel Puzzels</h3>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+          <!-- fifth card -->
+          <a href="#" class="proj5 flex-item background-image">
+            <div>
+              <h3>Run Buddy</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
     </section>
     <!-- contact -->
     <footer>
       <section class="page-section contact" id="contact">
-        <h2>Contact</h2>
-        <a href="#" class="tel:074302556998"> +44 74302 556998</a>
-        <a href="mailto:aalashe@gmail.com" target="_blank" class="email">Email</a>
-        <a href="https://github.com/ademolaalashe?tab=repositories" target="_blank" class="GH">GitHub</a>
-        <a href="https://twitter.com/alashe03" target="_blank" class="TW"> Twitter</a>
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <div class="section-content">
+            <a href="#" class="tel:074302556998"> +44 74302 556998</a>
+            <a href="mailto:aalashe@gmail.com" target="_blank" class="email">Email</a>
+            <a href="https://github.com/ademolaalashe?tab=repositories" target="_blank" class="GH">GitHub</a>
+            <a href="https://twitter.com/alashe03" target="_blank" class="TW"> Twitter</a>
+        </div>
+        
       </section>
     </footer>
-    <br>
-    <br>
+    
   </main>
 </body>
 </html>
