@@ -14,5 +14,8 @@ Footer containing contact information.
 ![Portfolio](./screenshot.png)
 
 
+https://github.com/ademolaalashe/Portfolio
+https://ademolaalashe.github.io/Portfolio/#work
+
 
 
